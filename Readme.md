@@ -19,32 +19,23 @@ Additionally, the framework captures screenshots for failed scenarios, generatin
 - **Maven**: Dependency management and build tool.
 - **WebDriverManager**: Automates the setup of WebDriver binaries.
 ---
-project
-│
-├── src/main/java/pages
-│   ├── loginPage.java
-│
-├── src/test/java
-│   ├── base     
-│       ├── TestBase.java 
-│   ├── ExtentReportures     
-│       ├── ExtentManager.java      
-│   ├── StepDefinitions 
-│       ├── Hooks.java
-│       ├── LoginStep.java 
-│   ├── CucumberRunner.java  
-│
-├── src/test/resources
-│   ├── features  
-│       ├── login.feature           
-│   ├── config.properties   
-│
-├── target  
-│   ├── extent-reports
-│   ├── screenshots
-│
-├── pom.xml                 
-├── README.md               
+## **Project Structure**
+
+
+├───src
+│   ├───main
+│   │   └───java
+│   │       └───pages
+│   └───test
+│       ├───java
+│       │   ├───base
+│       │   ├───ExtentReport
+│       │   └───StepDefinitions
+│       └───resources
+│           └───features
+└───target
+    ├───extent-reports
+    ├───screenshots          
 
 
 ## **Test Scenarios**
